@@ -1,0 +1,17 @@
+//this program is made by dhyan on 4/12/2022
+#include <stdio.h>
+
+void main() {
+    
+    printf("Square Area Calculatar");
+    int a,b;
+    
+    printf("\nPrint value a: ");
+    scanf("%d",&a);
+    
+    b=a*a;
+    
+    printf("\narea of square is : ");
+    printf("%d",b);
+
+}
