@@ -1,0 +1,32 @@
+//this code is made by dhyan on 4/12/2022
+
+#include <stdio.h>
+
+void main() {
+    
+    printf("Average Calculator Of 5 Numbers");
+    
+    int a,b,c,d,e,f;
+    
+    printf("\n\nGive number 1: ");
+    scanf("%d",&a);
+    
+    printf("Give number 2: ");
+    scanf("%d",&b);
+    
+    printf("Give number 3: ");
+    scanf("%d",&c);
+    
+    printf("Give number 4: ");
+    scanf("%d",&d);
+    
+    printf("Give number 5: ");
+    scanf("\n%d",&e);
+    
+    f=(a+b+c+d+e)/5;
+    
+    printf("Average of 5 numbers is: ");
+    
+    printf("%d",f);
+    
+}
