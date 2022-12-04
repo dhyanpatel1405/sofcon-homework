@@ -1,0 +1,19 @@
+//this code is made by dhyan on 4/12/2022
+
+#include <stdio.h>
+
+void main() {
+    
+    printf("Circle Area Calculatar");
+    
+    float a,c;
+    
+    printf("\n\nGive radus of circle: ");
+    scanf("%f",&a);
+    
+    c=a*a*22/7;
+    printf("area of circle is : ");
+    
+    printf("%f",c);
+    
+}
