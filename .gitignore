@@ -1,52 +1,20 @@
-# Prerequisites
-*.d
+//this program is made by dhyan on 4/12/2022
+#include <stdio.h>
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+void main() {
+    
+    printf("Rectangle Area Calculatar");
+    int a,b,c;
+    
+    printf("\nPrint value a: ");
+    scanf("%d",&a);
+    
+    printf("Print value b: ");
+    scanf("%d",&b);
+    
+    c=a*b;
+    
+    printf("\narea of rectangle is : ");
+    printf("%d",c);
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+}
