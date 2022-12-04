@@ -1,0 +1,21 @@
+//this code is made by dhyan on 4/12/2022
+
+#include <stdio.h>
+
+void main() {
+    printf("Triangle Area Calculatar");
+    
+    int h,b,c;
+    
+    printf("\n\nType height of triangle: ");
+    scanf("%d",&h);
+    
+    printf("\nType breath of triangle: ");
+    scanf("%d",&b);
+    
+    c=(h*b)/2;
+    
+    printf("\nArea of triangle is : ");
+    printf("%d",c);
+
+}
