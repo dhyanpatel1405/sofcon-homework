@@ -1,1 +1,22 @@
+#include <stdio.h>
 
+int main(void) {
+  char letter;
+
+  printf("Enter a character: ");
+  scanf("%c", &ch);
+
+  if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' ||
+      letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U') {
+    printf("'%c' is a vowel.\n", letter);
+  } else {
+    printf("'%c' is a consonant.\n", letter);
+  }
+
+  return 0;
+}
+
+//understand this prgram from programiz website
+
+//https://www.programiz.com/c-programming/examples/vowel-consonant#:~:text=If%20either%20lowercase_vowel%20or%20uppercase_vowel,entered%20character%20is%20a%20consonant.
+//shorturl.at/fgru8
