@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+void main() {
   int num;
 
   printf("Enter an integer: ");
@@ -12,5 +12,4 @@ int main(void) {
     printf("%d is an odd number.\n", num);
   }
 
-  return 0;
 }
