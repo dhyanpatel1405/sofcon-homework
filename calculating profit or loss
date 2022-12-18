@@ -1,0 +1,25 @@
+//this program is writen by dhyan
+#include <stdio.h>
+
+void main() {
+  int sp;
+  int cp;
+  int profit, loss;
+
+    printf("Enter cost price: ");
+    scanf("%d",&sp);
+    
+    printf("Enter selling price: ");
+    scanf("%d",&cp);
+
+  if (cp > sp) {
+    profit = cp - sp;
+    printf("The profit is %d.\n", profit);
+  } else {
+    loss = sp - cp;
+    printf("The loss is %d.\n", loss);
+  }
+
+}
+
+
