@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void main()
+{
+    char ch;
+//used loop login from the internet
+    for (ch = 'a'; ch <= 'z'; ++ch)
+    {
+        printf("%c ", ch);
+    }
+
+ 
+}
