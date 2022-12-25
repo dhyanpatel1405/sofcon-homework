@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void main()
+{
+    int N, sum = 0;
+
+    printf("Number of natural number you want to add : ");
+    scanf("%d", &N);
+
+//got the logic and understand it from the internet
+    for (int i = 1; i <= N; ++i)
+    {
+        sum += i;
+    }
+
+    printf("Sum = %d", sum);
+
+
+}
