@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+  int n, i;
+
+  printf("Enter a number: ");
+  scanf("%d", &n);
+
+//unerstand and got the logic from internet
+  for (i = 1; i <= n; i++) {
+    printf("%d\n", i);
+  }
+
+  return 0;
+}
