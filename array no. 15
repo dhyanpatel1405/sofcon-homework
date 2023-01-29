@@ -1,0 +1,15 @@
+// printing size of a datatype
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+ 
+printf("%d", sizeof(int));
+printf("%d", sizeof(float));
+printf("%d", sizeof(char));
+printf("%d", sizeof(double));
+printf("%d", sizeof(long));
+printf("%d", sizeof(short));
+
+}
